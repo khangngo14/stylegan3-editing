@@ -1,0 +1,3 @@
+python editing/interfacegan/edit_synthetic.py --generator_path pretrained_models/stylegan3-r-ffhqu-1024x1024.pkl --generator_type UNALIGNED --output_path outputs --attributes_to_edit "[age,smile,pose]" --n_images_per_edit 3 --truncation_psi 0.7
+
+python editing/interfacegan/edit_synthetic.py --generator_path pretrained_models/stylegan3-r-ffhq-1024x1024.pkl --generator_type ALIGNED --output_path outputs --attributes_to_edit "[age,smile,pose]" --n_images_per_edit 3 --truncation_psi 0.7 
